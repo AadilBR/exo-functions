@@ -1,3 +1,10 @@
+const typeOf = (myVar) => {
+
+  return typeof myVar
+}
+
+
+
 console.log(typeof 10);
 // expected output: "number"
 

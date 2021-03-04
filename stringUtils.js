@@ -1,4 +1,4 @@
-function reverseString(str) {
+/* function reverseString(str) {
   // Step 1. Use the split() method to return a new array
   var splitString = str.split(""); // var splitString = "hello".split("");
   // ["h", "e", "l", "l", "o"]
@@ -14,7 +14,12 @@ function reverseString(str) {
   //Step 4. Return the reversed string
   return joinArray; // "olleh"
 }
+ */
 
+const reverseString = (str) => {
 
-reverseString("Hello");
+  return str.split('').reverse().join('')
+
+}
+console.log(reverseString("Hello!"));
 

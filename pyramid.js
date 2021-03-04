@@ -24,5 +24,5 @@ const showStars = (nbBase, reverse, elem) => {
 
 // Appel de la fonction showStars avec l'argument 15 et true et le caractere A
 // la fonction retourne une string que l'on peut afficher 
-let str1 = showStars(15, false, "A")
+let str1 = showStars(5, false, "A")
 console.log(str1)

@@ -1,7 +1,7 @@
 
 const count = (min, max, step) => {
-  for (min; min <= max; min += step)
-    console.log(min)
+  for (let i = min; i <= max; i += step)
+    console.log(i)
 }
 
 count(0, 20, 2)
