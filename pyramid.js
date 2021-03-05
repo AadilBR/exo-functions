@@ -2,7 +2,7 @@
 // nbBase est un entier correspondant au nombre d'étoile de la base de notre pyramide
 // reverse est un boolean. Si reverse === true alors afficher la pyramide à l'envers
 // showStars retourne une string contenant la pyramide
-const showStars = (nbBase, reverse, elem) => {
+const showA = (nbBase, reverse, elem) => {
   let str = ''
   if (!reverse) {
     for (let i = 1; i <= nbBase; ++i) {
@@ -24,5 +24,5 @@ const showStars = (nbBase, reverse, elem) => {
 
 // Appel de la fonction showStars avec l'argument 15 et true et le caractere A
 // la fonction retourne une string que l'on peut afficher 
-let str1 = showStars(5, false, "A")
+let str1 = showA(5, false, "A")
 console.log(str1)

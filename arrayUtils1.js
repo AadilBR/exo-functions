@@ -1,8 +1,8 @@
 
-function biggest([a, b, c, d]) {
+function biggest(tabNb) {
 
-  return Math.max(a, b, c, d)
+  return Math.max(...tabNb)
 
 }
 
-console.log(biggest([99, 100, 101, 1])) // returns 101
+console.log(biggest([99, 100, 101, 1, 1000])) // returns 101
